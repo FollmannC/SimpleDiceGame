@@ -16,6 +16,10 @@ public class Game {
       Random randGen = new Random();
       int dieNum  =  randGen.nextInt(6) + 1;
       System.out.println("The die is a " + dieNum);
+      if(dieNum == enteredNum) {
+    	  System.out.println("You win " + (enteredBet*10) + " dollars!");
+      }
+      else{System.out.println("Sorry. You lost");}
    
       // write the rest of your code below
         

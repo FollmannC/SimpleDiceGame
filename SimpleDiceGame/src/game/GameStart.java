@@ -6,6 +6,7 @@ public class GameStart {
 	      System.out.println("Let's play!");
 	      Game g = new Game();
 	      g.play();
+	      
 	   }
 
 	}
