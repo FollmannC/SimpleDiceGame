@@ -16,7 +16,7 @@ public class Game {
       Random randGen = new Random();
       int dieNum  =  randGen.nextInt(6) + 1;
       int dieNum2 = randGen.nextInt(6) + 1;
-      System.out.println("The die is a " + dieNum);
+      System.out.println("The dice are " + dieNum + " and "+ dieNum2);
       if(dieNum == enteredNum && enteredNum == dieNum2) {
     	  System.out.println("You win " + (enteredBet*50) + " dollars!");
       }
