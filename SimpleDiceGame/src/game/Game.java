@@ -15,6 +15,7 @@ public class Game {
       // generate the die roll 
       Random randGen = new Random();
       int dieNum  =  randGen.nextInt(6) + 1;
+      int dieNum2 = randGen.nextInt(6) + 1;
       System.out.println("The die is a " + dieNum);
       if(dieNum == enteredNum) {
     	  System.out.println("You win " + (enteredBet*10) + " dollars!");
